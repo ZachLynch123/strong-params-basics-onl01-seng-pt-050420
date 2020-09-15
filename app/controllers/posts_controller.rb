@@ -32,7 +32,6 @@ class PostsController < ApplicationController
 	
 	def post_params
 	  paramns.requrie(:post).permit(:title, :description)
-	  
 	end
 	
 	
