@@ -31,7 +31,7 @@ class PostsController < ApplicationController
 	private 
 	
 	def post_params
-	  paramns.requrie(:post).permit(:title, :description)
+	  params.requrie(:post).permit(:title, :description)
 	end
 	
 	
